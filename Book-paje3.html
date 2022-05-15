@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="booc-paje.css" />
+    <link rel="stylesheet" href="book-raiting.css" />
+    <link rel="stylesheet" href="book-anatation.css" />
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="photo2">
+            <img src="Новая папка/tree_2.png">
+        </div>
+        <div class="text">
+            <p id="logo-text2">Портал для поверхностного ознакомления с фэнтези книгами </p>
+            <p id="logo-text">На этом сайте вы сможете найти аннотации и отзывы на интересующие вас книги или оставить
+                своё мнение по поводу уже прочитанных книг. </p>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <div class="search">
+            <form class="form1"><input class="search-area" type="text" placeholder="Искать здесь...">
+
+            </form>
+        </div>
+        <a href="P_Progect.html" class="active">Главная</a>
+        <div class="dropdown">
+            <button class="dropbtn">Жанры
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Janre-1R.html">Фэнтези-романтика</a>
+                <a href="Janre-2D.html">Фэнтези-детектив</a>
+                <a href="Janre-3X.html">Хорор-фэнтези</a>
+            </div>
+        </div>
+        <a href="Otziv.html">Оставить отзыв</a>
+        <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">☰</a>
+    </div>
+    <div class="tit2">
+        <p class="book-text1">Магия горит</p>
+        <hr class="line3">
+        <p class="book-text1av">Илона Эндрюс</p>
+    </div>
+    <div class="book">
+        <div class="tit">
+            <p class="book-text1">Магия горит</p>
+            <hr class="line">
+            <p class="book-text1av">Илона Эндрюс</p>
+        </div>
+        <div class="book-img">
+            <img id="b-img1" src="Новая папка/magiagorit.jpg">
+        </div>
+
+        <div class="reiting">
+            <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+            </div>
+            <div class="reiting-num">4.35</div>
+        </div>
+        <div class="book-text">
+            <p id="book-t2" class="b2">Автор:<span id="book-t3"> Илона Эндрюс </span></p>
+            <p class="obook">О книге:</p>
+            <hr class="line2">
+            <p id="book-t2">Жанры:<span id="book-t3">Зарубежное фэнтези</span> </p>
+            <p id="book-t2">Огранечение:<span id="book-t3">16+</span> </p>
+        </div>
+    </div>
+    <div class="book-anat">
+        <p class="anotation">Аннотация</p>
+    </div>
+    <div class="book-anat2">
+        <p class="anotation2">Раз в семь лет в Атланте случается Вспышка: магия свирепствует.
+
+            Наемница Кейт Дэниелс должна вернуть украденные карты Стае. Но ставки слишком высоки. Ведь карты – первый шаг в противостоянии богов, каждый из которых мечтает возродиться. К тому же норка-перевертыш просит девушку об одолжении…
+            
+            Устроить свадьбу бывшего бойфренда с другой девушкой? Найти сгинувшую в ночи мать тринадцатилетки? Отправиться внутрь гигантской черепахи, где живут пифии? Легко, если ты Кейт.</p>
+    </div>
+    <div class="book-otziv">
+        <p class="otziv-zagol">Комментарии</p>
+        <input class="comment" type="text" placeholder="Оставить комментарий...">
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

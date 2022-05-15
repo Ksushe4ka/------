@@ -1,0 +1,57 @@
+/*anotation*/
+
+.book-anat {
+    display: inline-block;
+    background-color: #d2d0ff99;
+    width: 20%;
+    height: 70px;
+    margin-left: 9%;
+    margin-bottom: 0;
+    color: #2d0168;
+}
+
+.anotation {
+    font-size: 37px;
+    padding-left: 20%;
+    padding-top: 3%;
+    margin-top: 1%;
+}
+
+.book-anat2 {
+    display: inline-block;
+    background-color: #d2d0ff99;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 0;
+    color: #2d0168;
+}
+
+.anotation2 {
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: 2.5%;
+    margin-right: 5%;
+}
+
+@media (max-width: 540px) {
+    .book-anat {
+        margin-top: 55px;
+        width: 50%;
+    }
+
+    .anotation {
+        font-size: 30px;
+        padding-left: 14px;
+        padding-top: 15px;
+    }
+
+    .book-anat2 {
+        border-radius: 20px;
+        height: auto;
+    }
+
+    .anotation2 {
+        font-size: 23px;
+    }
+}

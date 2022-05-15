@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="scrollmenu.css" />
+    <link rel="stylesheet" href="janre.css" />
+    <link rel="stylesheet" href="booc-paje.css" />
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="photo2">
+            <img src="Новая папка/tree_2.png">
+        </div>
+        <div class="text">
+            <p id="logo-text2">Портал для поверхностного ознакомления с фэнтези книгами </p>
+            <p id="logo-text">На этом сайте вы сможете найти аннотации и отзывы на интересующие вас книги или оставить
+                своё мнение по поводу уже прочитанных книг. </p>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <div class="search">
+            <form class="form1"><input class="search-area" type="text" placeholder="Искать здесь...">
+
+            </form>
+        </div>
+        <a href="P_Progect.html" class="active">Главная</a>
+        <div class="dropdown">
+            <button class="dropbtn">Жанры
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Janre-1R.html">Фэнтези-романтика</a>
+                <a href="Janre-2D.html">Фэнтези-детектив</a>
+                <a href="Janre-3X.html">Хорор-фэнтези</a>
+            </div>
+        </div>
+        <a href="Otziv.html">Оставить отзыв</a>
+        <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">☰</a>
+    </div>
+    <div>
+        <p class="scrol_text">Фэнтези-романтика: лучшие книги в жанре</p>
+        <hr class="line">
+    </div>
+    <div class="janre">
+        <div class="janre-img">
+            <img id="img1" src="Новая папка/princes.jpeg">
+        </div>
+        <div class="janre-text">
+            <a href="Book-paje1.html" id="jan-t1">Принцесса пепла</a>
+            <div id="jan-t2">Лора Себастьян</div>
+        </div>
+        <div class="janre-anat">
+            <p id="jan-t3">Мать Теодосии, Королеву пламени, убили, а ее страну завоевали. <span class="ant-hide">В один день девушка лишилась и семьи, и трона, и даже своего имени. Унизительный титул, который она вынуждена носить вместе с пепельной короной, пачкающей лицо и одежду.</span> <a href="Book-paje1.html" class="ant" >Читать далее...</a></p>
+        </div>
+    </div>
+    <div class="janre">
+        <div class="janre-img">
+            <img id="img1" src="Новая папка/Tsvetok_tmy.jpeg">
+        </div>
+        <div class="janre-text">
+            <a href="Book-paje2.html" id="jan-t1">Цветок тьмы</a>
+            <p id="jan-t2">П. М. Фристоун</p>
+        </div>
+        <div class="janre-anat">
+            <p id="jan-t3">В империи Арамтеш власть принадлежит тем, кто владеет ароматами. <span class="ant-hide">В ночь Цветочной Луны, когда мрак окутывает землю, распускается темнейший из цветков – дахкаи. Его аромат способен подарить своему обладателю богатство, власть и могущество. Но увидеть волшебные бутоны можно лишь раз в тысячу лун.</span><a href="Book-paje2.html" class="ant" >Читать далее...</a></p>
+        </div>
+    </div>
+    <div class="janre">
+        <div class="janre-img">
+            <img id="img1" src="Новая папка/magiagorit.jpg">
+        </div>
+        <div class="janre-text">
+            <a href="Book-paje3.html" id="jan-t1">Магия горит</a>
+            <p id="jan-t2">Илона Эндрюс</p>
+        </div>
+        <div class="janre-anat">
+            <p id="jan-t3">Раз в семь лет в Атланте случается Вспышка: магия свирепствует.<span class="ant-hide"> Наемница Кейт Дэниелс должна вернуть украденные карты Стае. Но ставки слишком высоки. Ведь карты – первый шаг в противостоянии богов, каждый из которых мечтает возродиться. К тому же норка-перевертыш просит девушку об одолжении… </span><a href="Book-paje3.html" class="ant" >Читать далее...</a></p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

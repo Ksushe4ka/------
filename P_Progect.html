@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="scrollmenu.css" />
+    <link rel="stylesheet" href="janre.css" />
+    <link rel="stylesheet" href="booc-paje.css" />
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="photo2">
+            <img src="Новая папка/log.png" class="logo1">
+        </div>
+        <div class="text">
+            <p id="logo-text2">Портал для поверхностного ознакомления с фэнтези книгами </p>
+            <p id="logo-text">На этом сайте вы сможете найти аннотации и отзывы на интересующие вас книги или оставить
+                своё мнение по поводу уже прочитанных книг. </p>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <div class="search">
+            <form class="form1"><input class="search-area" type="text" placeholder="Искать здесь...">
+
+            </form>
+        </div>
+        <a href="P_Progect.html" class="active">Главная</a>
+        <div class="dropdown">
+            <button class="dropbtn">Жанры
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Janre-1R.html">Фэнтези-романтика</a>
+                <a href="Janre-2D.html">Фэнтези-детектив</a>
+                <a href="Janre-3X.html">Хорор-фэнтези</a>
+            </div>
+        </div>
+        <a href="Otziv.html">Оставить отзыв</a>
+        <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">☰</a>
+    </div>
+
+    <div>
+        <p class="scrol_text">ТОП 5 популярных книг</p>
+        <hr class="line">
+    </div>
+    <div class="scrollmenu">
+        <a href=""><img class="scrol_photo" src="Новая папка/blast.jpg">
+            <figcaption>Властилин колец</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/igraprest.jpg">
+            <figcaption>Игра престолов</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/xobbit.jpg">
+            <figcaption>Хоббит</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/xodzamok.jpg">
+            <figcaption>Ходячий замок</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/labir.jpg">
+            <figcaption>Лабиринт эхо</figcaption>
+        </a>
+
+    </div>
+    <div>
+        <p class="scrol_text">ТОП 5 новинок</p>
+        <hr class="line">
+    </div>
+    <div class="scrollmenu">
+        <a href=""><img class="scrol_photo" src="Новая папка/tigana.jpg">
+            <figcaption>Тигана</figcaption>
+        </a>
+
+        <a href=""> <img class="scrol_photo" src="Новая папка/nasled.jpg">
+            <figcaption>Наследница молний</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/otplot.jpg">
+            <figcaption>От плоти и крови</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/sholox.jpg">
+            <figcaption>Шолох. Академия Буря</figcaption>
+        </a>
+
+        <a href=""><img class="scrol_photo" src="Новая папка/zolot.jpg">
+            <figcaption>Золотая империя</figcaption>
+        </a>
+
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

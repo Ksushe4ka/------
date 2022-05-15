@@ -1,0 +1,109 @@
+/* менюха для книг */
+.scrollmenu {
+    background-color: #621CBE;
+    overflow: auto;
+    white-space: nowrap;
+    font-family: inherit;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 2.5%;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.scrollmenu a:hover {
+    background-color: #621CBE;
+}
+
+.line {
+    margin-bottom: 2.5%;
+    size: 5%;
+    color: #3B0089;
+    width: 90%;
+}
+
+.scrol_photo {
+    width: 100%;
+    height: 450px;
+}
+
+.scrol_text {
+    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: 4.8%;
+    color: #2d0168;
+}
+
+.scrol_text1 {
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: 4.8%;
+    color: #2d0168;
+}
+
+@media screen and (max-width: 540px) {
+    /* менюха для книг */ 
+    
+   .scrollmenu { 
+    
+    background-color: #621CBE; 
+    overflow: auto; 
+    white-space: nowrap; 
+    font-family: inherit; 
+    width: 90%; 
+    margin-left: 5%; 
+} 
+ 
+.scrollmenu a { 
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 2.5%; 
+    text-decoration: none; 
+    font-size: 30px; 
+} 
+ 
+.scrollmenu a:hover { 
+    background-color: #621CBE; 
+} 
+ 
+.line { 
+    margin-bottom: 2.5%; 
+    size: 5%; 
+    color: #3B0089; 
+    width: 90%; 
+} 
+.scrol_photo { 
+ 
+    width: 90%; 
+ 
+    height: 235px;
+} 
+ 
+.scrol_text { 
+    font-size: 25px; 
+    margin-top: 5%; 
+    margin-bottom: 0; 
+    margin-left: 4.8%; 
+    color: #2d0168; 
+} 
+ 
+.scrol_text1 { 
+    font-size: 50px; 
+    margin-top: 5%; 
+    margin-bottom: 0; 
+    margin-left: 4.8%; 
+    color: #2d0168; 
+} 
+figcaption { 
+  font-size: 20px ; 
+} 
+}

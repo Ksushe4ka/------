@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="scrollmenu.css" />
+    <link rel="stylesheet" href="janre.css" />
+    <link rel="stylesheet" href="booc-paje.css" />
+    <link rel="stylesheet" href="otsiv.css" />
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <div class="photo2">
+            <img src="Новая папка/log.png" class="logo1">
+        </div>
+        <div class="text">
+            <p id="logo-text2">Портал для поверхностного ознакомления с фэнтези книгами </p>
+            <p id="logo-text">На этом сайте вы сможете найти аннотации и отзывы на интересующие вас книги или оставить
+                своё мнение по поводу уже прочитанных книг. </p>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <div class="search">
+            <form class="form1"><input class="search-area" type="text" placeholder="Искать здесь...">
+
+            </form>
+        </div>
+        <a href="P_Progect.html" class="active">Главная</a>
+        <div class="dropdown">
+            <button class="dropbtn">Жанры
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Janre-1R.html">Фэнтези-романтика</a>
+                <a href="Janre-2D.html">Фэнтези-детектив</a>
+                <a href="Janre-3X.html">Хорор-фэнтези</a>
+            </div>
+        </div>
+        <a href="Otziv.html">Оставить отзыв</a>
+        <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">☰</a>
+    </div>
+    <div>
+        <form name="data">
+            <fieldset>
+                <legend><span>Отзыв</span></legend>
+                <div>
+                    <span class="text_otz">
+                        <br>Имя:<br><input type='text' name='firstname' class="text_otz" /><br><br>
+                        Фамилия:<br><input type='text' name='lastname' class="text_otz" /><br><br>
+                </div>
+                <span class="text_otz">Ваш email:</span>
+                <div>
+                    <input type='email' name='email' class="text_otz" /><br><br>
+                </div>
+                <br>
+                <span class="text_otz">Напечатайте отзыв:</span>
+                <div>
+                    <textarea rows="4" class="text_otz"></textarea>
+                    <br><br>
+                </div>
+                <input class="text_otzbt" type="button" value="Oтправить" onClick="fun1()">
+            </fieldset>
+        </form>
+    </div>
+    <script>
+        function fun1() {
+            if (confirm("Отправить отзыв?"))
+                alert("Ваш отзыв отправлен");
+        }
+    </script>
+</body>
+
+</html>
